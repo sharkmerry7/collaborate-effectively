@@ -29,7 +29,7 @@ jobs:
     steps:    
       - name: Get Token
         id: get_workflow_token
-        uses: peter-murray/workflow-application-token-action@8e1ba3bf1619726336414f1014e37f17fbadf1db
+        uses: peter-murray/workflow-application-token-action@a6e2c72b7faef86be1784b0d54ae4edd568c9b88
         with:
           application_id: ${{ vars.GH_APPLICATION_ID }}
           application_private_key: ${{ secrets.GH_APPLICATION_PRIVATE_KEY }}
@@ -82,7 +82,7 @@ jobs:
     steps:    
       - name: Get Token
         id: get_workflow_token
-        uses: peter-murray/workflow-application-token-action@8e1ba3bf1619726336414f1014e37f17fbadf1db
+        uses: peter-murray/workflow-application-token-action@a6e2c72b7faef86be1784b0d54ae4edd568c9b88
         with:
           application_id: ${{ vars.GH_APPLICATION_ID }}
           application_private_key: ${{ secrets.GH_APPLICATION_PRIVATE_KEY }}
@@ -144,7 +144,7 @@ jobs:
     steps:    
       - name: Get Token
         id: get_workflow_token
-        uses: peter-murray/workflow-application-token-action@8e1ba3bf1619726336414f1014e37f17fbadf1db
+        uses: peter-murray/workflow-application-token-action@a6e2c72b7faef86be1784b0d54ae4edd568c9b88
         with:
           application_id: ${{ vars.GH_APPLICATION_ID }}
           application_private_key: ${{ secrets.GH_APPLICATION_PRIVATE_KEY }}
